@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Node/build
+node_modules/
+dist/
+.env
+.env.local
+
+# Runtime outputs
+data/raw/arxiv_abstracts/
+data/raw/ir_outputs/
+data/raw/llm_outputs/
+real_world_distribution_authors_tmp/
+
+# Local model files
+models/
+*.safetensors
+*.bin
+*.pt
+
+# Runtime caches
+src/api/__pycache__/
+src/services/__pycache__/
+src/config/__pycache__/

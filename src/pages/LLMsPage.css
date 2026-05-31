@@ -1,0 +1,26 @@
+.llms-page-grid {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 20px;
+  width: min(1480px, calc(100vw - 48px));
+  margin: 0 auto 40px;
+  align-items: start;
+}
+
+.llms-fixed-card {
+  max-height: 800px;
+  overflow: auto;
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 18px;
+  padding: 22px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+}
+
+.llms-console-card {
+  height: 800px;
+  max-height: 800px;
+  min-width: 0;
+  overflow: auto;
+  resize: none;
+}

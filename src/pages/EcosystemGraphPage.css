@@ -1,0 +1,272 @@
+.eco-page {
+  width: min(1280px, calc(100vw - 48px));
+  margin: 0 auto;
+  padding: 36px 0 56px;
+  color: #111827;
+}
+
+.eco-hero {
+  padding: 34px 36px;
+  border-radius: 24px;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  background: linear-gradient(135deg, #f8fbff, #f4f0ff);
+  box-shadow: 0 18px 48px rgba(15, 23, 42, 0.06);
+  margin-bottom: 22px;
+}
+
+.eco-eyebrow {
+  margin: 0 0 10px;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #334155;
+}
+
+.eco-hero h1 {
+  margin: 0;
+  font-size: clamp(42px, 6vw, 64px);
+  line-height: 0.95;
+  letter-spacing: -0.06em;
+}
+
+.eco-hero p {
+  max-width: 850px;
+  margin: 18px 0 0;
+  color: #475569;
+  line-height: 1.7;
+  font-weight: 560;
+}
+
+.eco-card {
+  margin-top: 22px;
+  padding: 24px;
+  border-radius: 22px;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 18px 48px rgba(15, 23, 42, 0.06);
+}
+
+.eco-card-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.eco-card-header h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.eco-card-header p {
+  margin: 10px 0 0;
+  color: #64748b;
+  line-height: 1.65;
+}
+
+.eco-card code {
+  padding: 2px 6px;
+  border-radius: 6px;
+  background: #f1f5f9;
+  color: #334155;
+  font-size: 12px;
+}
+
+.eco-chip {
+  white-space: nowrap;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: #eef2ff;
+  color: #4f46e5;
+  font-size: 12px;
+  font-weight: 850;
+}
+
+.eco-form-grid {
+  display: grid;
+  grid-template-columns: 1fr 160px 160px;
+  gap: 14px;
+  align-items: end;
+}
+
+.eco-form-grid label {
+  display: grid;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 850;
+  color: #0f172a;
+}
+
+.eco-form-grid input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #dbe4f0;
+  border-radius: 12px;
+  padding: 12px 14px;
+  outline: none;
+  font-size: 14px;
+}
+
+.eco-form-grid input:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.12);
+}
+
+.eco-checkbox {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 14px;
+  font-size: 13px;
+  font-weight: 800;
+  color: #334155;
+}
+
+.eco-primary-btn {
+  width: 100%;
+  margin-top: 16px;
+  border: 0;
+  border-radius: 14px;
+  background: #111827;
+  color: #ffffff;
+  padding: 14px 18px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.eco-primary-btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.eco-running-box,
+.eco-result-box,
+.eco-error-box {
+  margin-top: 14px;
+  border-radius: 14px;
+  padding: 14px;
+}
+
+.eco-running-box {
+  background: #eff6ff;
+  color: #1d4ed8;
+  font-weight: 800;
+}
+
+.eco-error-box {
+  background: #fef2f2;
+  color: #991b1b;
+  white-space: pre-wrap;
+}
+
+.eco-result-box {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.eco-result-stats {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.eco-result-stats span {
+  padding: 7px 10px;
+  border-radius: 999px;
+  background: #eef2ff;
+  color: #3730a3;
+  font-size: 12px;
+  font-weight: 850;
+}
+
+.eco-download-btn {
+  text-decoration: none;
+  border-radius: 999px;
+  background: #111827;
+  color: #ffffff;
+  padding: 10px 14px;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.eco-empty-preview {
+  min-height: 280px;
+  display: grid;
+  place-items: center;
+  border: 1px dashed #cbd5e1;
+  border-radius: 18px;
+  color: #94a3b8;
+  font-weight: 850;
+  background: #ffffff;
+}
+
+.eco-preview-list {
+  display: grid;
+  gap: 14px;
+}
+
+.eco-preview-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 18px;
+  padding: 18px;
+  background: #ffffff;
+}
+
+.eco-preview-meta {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.eco-preview-meta span {
+  padding: 5px 8px;
+  border-radius: 999px;
+  background: #f1f5f9;
+  color: #475569;
+  font-size: 12px;
+  font-weight: 850;
+}
+
+.eco-preview-card h3 {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.eco-authors {
+  margin: 8px 0 0;
+  color: #475569;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.eco-abstract {
+  margin: 12px 0;
+  color: #334155;
+  line-height: 1.7;
+}
+
+.eco-preview-card a {
+  color: #2563eb;
+  font-weight: 850;
+  text-decoration: none;
+}
+
+@media (max-width: 900px) {
+  .eco-form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .eco-card-header,
+  .eco-result-box {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}

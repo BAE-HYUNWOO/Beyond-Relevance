@@ -1,0 +1,211 @@
+.relation-page {
+  width: min(1480px, calc(100vw - 48px));
+  margin: 0 auto;
+  padding: 28px 0 48px;
+  color: #111827;
+}
+
+.relation-hero {
+  padding: 26px 28px;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 24px;
+  background: linear-gradient(135deg, #f8fafc, #eef2ff);
+  box-shadow: 0 18px 50px rgba(15, 23, 42, 0.06);
+  margin-bottom: 22px;
+}
+
+.relation-hero .eyebrow {
+  margin: 0 0 8px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #4f46e5;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.relation-hero h1 {
+  margin: 0;
+  font-size: 36px;
+  letter-spacing: -0.04em;
+}
+
+.relation-hero p {
+  margin: 12px 0 0;
+  max-width: 860px;
+  color: #475569;
+  line-height: 1.65;
+}
+
+.abstract-panel,
+.graph-section,
+.triples-section {
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 24px;
+  background: #ffffff;
+  box-shadow: 0 18px 50px rgba(15, 23, 42, 0.06);
+  padding: 22px;
+  margin-bottom: 22px;
+}
+
+.abstract-panel-header,
+.graph-header,
+.abstract-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.abstract-panel h2,
+.graph-section h2,
+.triples-section h2 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.abstract-list {
+  display: grid;
+  gap: 16px;
+  margin-top: 18px;
+}
+
+.abstract-card {
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 18px;
+  background: #f8fafc;
+  padding: 16px;
+}
+
+.abstract-card h3 {
+  margin: 0 0 12px;
+  font-size: 16px;
+}
+
+.abstract-card textarea {
+  width: 100%;
+  min-height: 180px;
+  resize: vertical;
+  border: 1px solid rgba(15, 23, 42, 0.14);
+  border-radius: 14px;
+  padding: 14px;
+  font-size: 14px;
+  line-height: 1.6;
+  outline: none;
+  background: #ffffff;
+}
+
+.abstract-card textarea:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.12);
+}
+
+.add-btn,
+.delete-btn,
+.extract-btn {
+  border: 0;
+  border-radius: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.add-btn {
+  padding: 10px 14px;
+  background: #eef2ff;
+  color: #4338ca;
+}
+
+.delete-btn {
+  padding: 8px 12px;
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.extract-btn {
+  width: 100%;
+  margin-top: 18px;
+  padding: 14px 18px;
+  background: #111827;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.extract-btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.error-box {
+  margin-top: 14px;
+  padding: 14px;
+  border-radius: 14px;
+  background: #fef2f2;
+  color: #991b1b;
+  white-space: pre-wrap;
+}
+
+.graph-header p {
+  margin: 6px 0 0;
+  color: #64748b;
+}
+
+.graph-stats {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.graph-stats span {
+  padding: 8px 10px;
+  border-radius: 999px;
+  background: #f1f5f9;
+  color: #334155;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.graph-canvas {
+  margin-top: 18px;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 18px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.empty-graph {
+  height: 460px;
+  display: grid;
+  place-items: center;
+  color: #94a3b8;
+  font-weight: 700;
+}
+
+.triples-table-wrap {
+  overflow-x: auto;
+  margin-top: 16px;
+}
+
+.triples-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.triples-table th,
+.triples-table td {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.triples-table th {
+  background: #f8fafc;
+  color: #475569;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.empty-text {
+  color: #94a3b8;
+}

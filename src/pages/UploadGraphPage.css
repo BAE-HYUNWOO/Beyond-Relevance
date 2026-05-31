@@ -1,0 +1,246 @@
+.upload-graph-page {
+  width: min(1480px, calc(100vw - 48px));
+  margin: 0 auto;
+  padding: 28px 0 54px;
+  color: #111827;
+}
+
+.upload-hero {
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 24px;
+  background:
+    radial-gradient(circle at 0% 0%, rgba(22, 119, 255, 0.08), transparent 260px),
+    radial-gradient(circle at 100% 0%, rgba(114, 46, 209, 0.08), transparent 260px),
+    #ffffff;
+  padding: 34px 38px;
+  box-shadow: 0 18px 50px rgba(15, 23, 42, 0.06);
+  margin-bottom: 22px;
+}
+
+.upload-eyebrow {
+  margin: 0 0 8px;
+  color: #4f46e5;
+  font-size: 13px;
+  font-weight: 850;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.upload-hero h1 {
+  margin: 0;
+  font-size: clamp(38px, 5vw, 62px);
+  line-height: 1;
+  letter-spacing: -0.06em;
+}
+
+.upload-hero p {
+  margin: 18px 0 0;
+  max-width: 940px;
+  color: #475569;
+  line-height: 1.7;
+}
+
+.upload-card {
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 18px 50px rgba(15, 23, 42, 0.06);
+  padding: 24px;
+  margin-bottom: 22px;
+}
+
+.upload-card-header,
+.upload-graph-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.upload-card h2 {
+  margin: 0 0 8px;
+  font-size: 24px;
+}
+
+.upload-card p {
+  color: #475569;
+  line-height: 1.65;
+}
+
+.upload-card code {
+  background: #f1f5f9;
+  border-radius: 8px;
+  padding: 2px 6px;
+  color: #334155;
+}
+
+.upload-pill {
+  flex: 0 0 auto;
+  padding: 8px 11px;
+  border-radius: 999px;
+  background: #eef2ff;
+  color: #4f46e5;
+  font-weight: 850;
+  font-size: 12px;
+}
+
+.upload-dropzone {
+  margin-top: 20px;
+  min-height: 180px;
+  border: 1px dashed #c4b5fd;
+  border-radius: 20px;
+  background: rgba(245, 243, 255, 0.62);
+  display: grid;
+  place-items: center;
+  text-align: center;
+  gap: 8px;
+  cursor: pointer;
+  padding: 24px;
+}
+
+.upload-dropzone input {
+  display: none;
+}
+
+.upload-dropzone strong {
+  color: #4c1d95;
+}
+
+.upload-dropzone span {
+  color: #64748b;
+}
+
+.upload-filter-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.upload-filter-grid label {
+  display: grid;
+  gap: 8px;
+  color: #111827;
+  font-weight: 800;
+  font-size: 13px;
+}
+
+.upload-filter-grid input {
+  min-width: 0;
+  border: 1px solid #dbe3ef;
+  border-radius: 14px;
+  padding: 13px 14px;
+  outline: none;
+  font-size: 14px;
+}
+
+.upload-filter-grid input:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.12);
+}
+
+.upload-primary-btn {
+  width: 100%;
+  margin-top: 18px;
+  border: 0;
+  border-radius: 15px;
+  background: #111827;
+  color: white;
+  padding: 15px 18px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.upload-primary-btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.upload-error {
+  margin-top: 14px;
+  white-space: pre-wrap;
+  color: #991b1b;
+  background: #fef2f2;
+  border-radius: 14px;
+  padding: 14px;
+  overflow: auto;
+}
+
+.upload-stats {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.upload-stats span {
+  padding: 9px 12px;
+  border-radius: 999px;
+  background: #f1f5f9;
+  color: #334155;
+  font-weight: 850;
+  font-size: 13px;
+}
+
+.upload-graph-canvas {
+  margin-top: 18px;
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.upload-empty-graph {
+  height: 460px;
+  display: grid;
+  place-items: center;
+  color: #94a3b8;
+  font-weight: 850;
+}
+
+.upload-table-wrap {
+  overflow-x: auto;
+  margin-top: 16px;
+}
+
+.upload-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.upload-table th,
+.upload-table td {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.upload-table th {
+  background: #f8fafc;
+  color: #475569;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.upload-empty-text {
+  color: #94a3b8;
+}
+
+@media (max-width: 920px) {
+  .upload-filter-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .upload-card-header,
+  .upload-graph-header {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 620px) {
+  .upload-filter-grid {
+    grid-template-columns: 1fr;
+  }
+}
