@@ -19,6 +19,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173",
         "http://127.0.0.1:5173",
+        "https://beyond-relevance.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
@@ -315,7 +316,7 @@ async def run_ir_collection(request: Request):
     }
 
     def safe_file_part(value: str) -> str:
-        return "".join("_" if c in '\\\\/:*?\"<>|' else c for c in value).strip()
+        return "".join("_" if c in '\\\\/:*?"<>|' else c for c in value).strip()
 
     safe_query = safe_file_part(query)
 
@@ -447,7 +448,13 @@ def latest_ir_matched_csv():
 
     found_dir = base_dir / "data" / "raw" / "ir_outputs" / "found_titles"
     if found_dir.exists():
-        candidates.extend(sorted(found_dir.glob("*_found.csv"), key=lambda p: p.stat().st_mtime, reverse=True))
+        candidates.extend(
+            sorted(
+                found_dir.glob("*_found.csv"),
+                key=lambda p: p.stat().st_mtime,
+                reverse=True,
+            )
+        )
 
     for path in candidates:
         if path.exists() and path.is_file():
@@ -473,7 +480,13 @@ def download_ir_matched_csv():
 
     found_dir = base_dir / "data" / "raw" / "ir_outputs" / "found_titles"
     if found_dir.exists():
-        candidates.extend(sorted(found_dir.glob("*_found.csv"), key=lambda p: p.stat().st_mtime, reverse=True))
+        candidates.extend(
+            sorted(
+                found_dir.glob("*_found.csv"),
+                key=lambda p: p.stat().st_mtime,
+                reverse=True,
+            )
+        )
 
     for path in candidates:
         if path.exists() and path.is_file():
@@ -535,7 +548,10 @@ def stop_ir_collection():
         IR_PROCESS.terminate()
         return {"success": True, "message": "Stop signal sent."}
     except Exception as error:
-        return {"success": False, "message": f"Failed to stop process: {type(error).__name__}: {error}"}
+        return {
+            "success": False,
+            "message": f"Failed to stop process: {type(error).__name__}: {error}",
+        }
 
 
 @app.get("/api/ir/status")

@@ -16,7 +16,7 @@ transformers
 safetensors
 huggingface_hub
 
-allennlp
+# allennlp
 
 networkx
 pyvis

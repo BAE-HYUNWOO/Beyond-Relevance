@@ -19,12 +19,12 @@ MODEL_CACHE_DIR = BASE_DIR / "models" / "hf_cache"
 
 ENTITY_MODEL_REPO = os.environ.get(
     "ENTITY_MODEL_REPO",
-    "BAE-HYUNWOO/scierc-entity-model",
+    "BAEHYUNWOO/scierc-entity-model",
 )
 
 RELATION_MODEL_REPO = os.environ.get(
     "RELATION_MODEL_REPO",
-    "BAE-HYUNWOO/scierc-relation-model",
+    "BAEHYUNWOO/scierc-relation-model",
 )
 
 HF_TOKEN = os.environ.get("HF_TOKEN")
