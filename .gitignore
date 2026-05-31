@@ -23,4 +23,10 @@ models/
 # Runtime caches
 src/api/__pycache__/
 src/services/__pycache__/
+<<<<<<< HEAD
 src/config/__pycache__/
+=======
+src/config/__pycache__/
+src/data/raw/
+**/.ipynb_checkpoints/
+>>>>>>> d937b5e (Prepare deployment without runtime data)
