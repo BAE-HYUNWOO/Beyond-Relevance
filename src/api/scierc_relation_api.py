@@ -10,7 +10,42 @@ from typing import List
 from fastapi import APIRouter
 from pydantic import BaseModel
 
+import os
+from pathlib import Path
+from huggingface_hub import snapshot_download
 
+BASE_DIR = Path(__file__).resolve().parents[2]
+MODEL_CACHE_DIR = BASE_DIR / "models" / "hf_cache"
+
+ENTITY_MODEL_REPO = os.environ.get(
+    "ENTITY_MODEL_REPO",
+    "BAE-HYUNWOO/scierc-entity-model",
+)
+
+RELATION_MODEL_REPO = os.environ.get(
+    "RELATION_MODEL_REPO",
+    "BAE-HYUNWOO/scierc-relation-model",
+)
+
+HF_TOKEN = os.environ.get("HF_TOKEN")
+
+
+def get_hf_model_dir(repo_id: str, local_name: str) -> Path:
+    local_dir = MODEL_CACHE_DIR / local_name
+    local_dir.mkdir(parents=True, exist_ok=True)
+
+    snapshot_download(
+        repo_id=repo_id,
+        local_dir=str(local_dir),
+        token=HF_TOKEN,
+        local_dir_use_symlinks=False,
+    )
+
+    return local_dir
+
+
+ENTITY_DIR = get_hf_model_dir(ENTITY_MODEL_REPO, "entity")
+REL_DIR = get_hf_model_dir(RELATION_MODEL_REPO, "relation")
 router = APIRouter(prefix="/api/scierc", tags=["SciERC Relation Graph"])
 
 
@@ -23,8 +58,6 @@ SCIERC_PROJECT = Path(
 )
 
 PURE = SCIERC_PROJECT / "external" / "PURE"
-ENTITY_DIR = SCIERC_PROJECT / "models" / "fine_tuned" / "entity"
-REL_DIR = SCIERC_PROJECT / "models" / "fine_tuned" / "relation"
 
 TMP = SCIERC_PROJECT / "outputs" / "beyond_relevance_demo"
 PURE_JSON = TMP / "pure_json"

@@ -9,3 +9,8 @@ torch
 transformers
 allennlp
 safetensors
+huggingface_hub
+transformers
+safetensors
+torch
+
