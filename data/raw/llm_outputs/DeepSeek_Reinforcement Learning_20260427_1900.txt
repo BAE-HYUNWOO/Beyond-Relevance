@@ -1,0 +1,97 @@
+﻿On a Theory of the Co-Operative Phenomena in Biological Systems
+A Logical Calculus of the Ideas Immanent in Nervous Activity
+The Chemical Basis of Morphogenesis
+Learning to Predict by the Methods of Temporal Differences
+Neuronlike Adaptive Elements That Can Solve Difficult Learning Control Problems
+Technical Note: Q-Learning
+Learning from Delayed Rewards
+Simple Statistical Gradient-Following Algorithms for Connectionist Reinforcement Learning
+Using Confidence Bounds for Exploitation-Exploration Trade-Offs
+Between MDPs and Semi-MDPs: A Framework for Temporal Abstraction in Reinforcement Learning
+Reinforcement Learning in Continuous Time and Space
+Policy Gradient Methods for Reinforcement Learning with Function Approximation
+Natural Actor-Critic
+Least-Squares Policy Iteration
+A Convergent Form of Approximate Policy Iteration
+Finite-Sample Analysis of Least-Squares Policy Iteration
+Provably Efficient Reinforcement Learning with Linear Function Approximation
+Is Q-Learning Provably Efficient?
+Deep Reinforcement Learning with Double Q-Learning
+Dueling Network Architectures for Deep Reinforcement Learning
+Asynchronous Methods for Deep Reinforcement Learning
+Human-Level Control through Deep Reinforcement Learning
+Mastering the Game of Go with Deep Neural Networks and Tree Search
+Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm
+A General Reinforcement Learning Algorithm that Masters Chess, Shogi, and Go through Self-Play
+Rainbow: Combining Improvements in Deep Reinforcement Learning
+Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor
+Proximal Policy Optimization Algorithms
+Trust Region Policy Optimization
+High-Dimensional Continuous Control Using Generalized Advantage Estimation
+Deterministic Policy Gradient Algorithms
+Continuous Control with Deep Reinforcement Learning
+Addressing Function Approximation Error in Actor-Critic Methods
+Model-Based Reinforcement Learning with Atari
+Learning Latent Dynamics for Planning from Pixels
+Dream to Control: Learning Behaviors by Latent Imagination
+World Models
+Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks
+Reinforcement Learning with Unsupervised Auxiliary Tasks
+Curiosity-Driven Exploration by Self-Supervised Prediction
+Large-Scale Study of Curiosity-Driven Learning
+Exploration by Random Network Distillation
+Count-Based Exploration with Neural Density Models
+Unifying Count-Based Exploration and Intrinsic Motivation
+Hindsight Experience Replay
+Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments
+Value-Decomposition Networks For Cooperative Multi-Agent Learning
+QMIX: Monotonic Value Function Factorisation for Deep Multi-Agent Reinforcement Learning
+Mean Field Multi-Agent Reinforcement Learning
+A Deep Hierarchical Approach to Lifelong Learning in Minecraft
+Hierarchical Reinforcement Learning with the MAXQ Value Function Decomposition
+Feudal Reinforcement Learning
+The Option-Critic Architecture
+Learning to Learn by Gradient Descent by Gradient Descent
+Evolution Strategies as a Scalable Alternative to Reinforcement Learning
+Deep Neuroevolution: Genetic Algorithms Are a Competitive Alternative for Training Deep Neural Networks for Reinforcement Learning
+Reinforcement Learning in Partially Observable Markov Decision Processes
+Bayesian Reinforcement Learning
+A Bayesian Sampling Approach to Exploration in Reinforcement Learning
+Thompson Sampling for Contextual Bandits with Linear Payoffs
+Regret Analysis of Stochastic and Nonstochastic Multi-Armed Bandit Problems
+The Nonstochastic Multiarmed Bandit Problem
+Finite-Time Analysis of the Multiarmed Bandit Problem
+Bandit Based Monte-Carlo Planning
+Upper Confidence Bounds for Trees
+Monte-Carlo Tree Search: A New Framework for Game AI
+Efficient Selectivity and Backup Operators in Monte-Carlo Tree Search
+Progressive Widening for Monte-Carlo Tree Search
+A Survey of Monte Carlo Tree Search Methods
+Reinforcement Learning: An Introduction
+Algorithms for Reinforcement Learning
+Approximate Dynamic Programming
+Neuro-Dynamic Programming
+Reinforcement Learning and Optimal Control
+A Comprehensive Survey on Safe Reinforcement Learning
+Constrained Policy Optimization
+Lyapunov-Based Safe Reinforcement Learning
+Safety-Aware Reinforcement Learning
+Inverse Reinforcement Learning
+Maximum Entropy Inverse Reinforcement Learning
+Apprenticeship Learning via Inverse Reinforcement Learning
+Algorithms for Inverse Reinforcement Learning
+A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning
+Generative Adversarial Imitation Learning
+End-to-End Training of Deep Visuomotor Policies
+Learning Agile Robotic Locomotion Skills by Imitating Animals
+Sim-to-Real Transfer of Robotic Control with Dynamics Randomization
+Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World
+Generalizing Across Robots and Domains: A Survey of Transfer Learning in Robotics
+Reinforcement Learning for Robots Using Neural Networks
+Learning to Walk in the Real World with Minimal Human Effort
+Residual Reinforcement Learning for Robot Control
+Reinforcement Learning with Deep Energy-Based Policies
+Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor
+A Distributional Perspective on Reinforcement Learning
+Distributional Reinforcement Learning with Quantile Regression
+Implicit Quantile Networks for Distributional Reinforcement Learning

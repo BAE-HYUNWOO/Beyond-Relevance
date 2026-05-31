@@ -1,0 +1,69 @@
+﻿Learning to Predict by the Methods of Temporal Differences
+Technical Note: Q-Learning
+Simple statistical gradient-following algorithms for connectionist reinforcement learning
+Policy Gradient Methods for Reinforcement Learning with Function Approximation
+Between MDPs and semi-MDPs: A framework for temporal abstraction in reinforcement learning
+Human-level control through deep reinforcement learning
+Deep Reinforcement Learning with Double Q-learning
+Dueling Network Architectures for Deep Reinforcement Learning
+Prioritized Experience Replay
+Asynchronous Methods for Deep Reinforcement Learning
+Trust Region Policy Optimization
+Proximal Policy Optimization Algorithms
+Continuous control with deep reinforcement learning
+Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning
+A Distributional Perspective on Reinforcement Learning
+Rainbow: Combining Improvements in Deep Reinforcement Learning
+Mastering the game of Go with deep neural networks and tree search
+Mastering the game of Go without human knowledge
+A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play
+Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model
+World Models
+Dream to Control: Learning Behaviors by Latent Imagination
+Mastering Diverse Domains through World Models
+Curiosity-driven Exploration by Self-supervised Prediction
+Exploration by Random Network Distillation
+#Exploration: A Study of Count-Based Exploration for Deep Reinforcement Learning
+Go-Explore: a New Approach for Hard-Exploration Problems
+Never Give Up: Learning Directed Exploration Strategies
+Hindsight Experience Replay
+Generative Adversarial Imitation Learning
+Algorithms for Inverse Reinforcement Learning
+Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments
+FeUdal Networks for Hierarchical Reinforcement Learning
+Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks
+RL²: Fast Reinforcement Learning via Slow Reinforcement Learning
+Conservative Q-Learning for Offline Reinforcement Learning
+Decision Transformer: Reinforcement Learning via Sequence Modeling
+Offline Reinforcement Learning with Implicit Q-Learning
+Dota 2 with Large Scale Deep Reinforcement Learning
+Grandmaster level in StarCraft II using multi-agent reinforcement learning
+Superhuman AI for multiplayer poker
+Learning Dexterous In-Hand Manipulation
+Emergent Tool Use from Multi-Agent Autocurricula
+QT-Opt: Scalable Deep Reinforcement Learning for Vision-Based Robotic Manipulation
+Image Augmentation Is All You Need: Regularizing Deep Reinforcement Learning from Pixels
+Benchmarking Deep Reinforcement Learning for Continuous Control
+Deep Reinforcement Learning and the Deadly Triad
+What Matters In On-Policy Reinforcement Learning? A Large-Scale Empirical Study
+Reward is Enough
+An Analysis of Temporal-Difference Learning with Function Approximation
+Integrated Architectures for Learning, Planning, and Reacting Based on Approximating Dynamic Programming
+Generalization in Reinforcement Learning with Selective Noise Injection and Information Bottleneck
+Playing Atari with Deep Reinforcement Learning
+Neural Fitted Q Iteration - First Experiences with a Data Efficient Neural Reinforcement Learning Method
+Action-Conditional Video Prediction for Deep Reinforcement Learning
+Stochastic Optimal Control and Reinforcement Learning
+Reinforcement Learning with Unsupervised Auxiliary Tasks
+Learning to Act by Predicting the Future
+Learning Values Across Many Orders of Magnitude
+The Option-Critic Architecture
+Recurrent Models of Visual Attention
+Reinforcement Learning with a Corrupted Reward Channel
+Safe and Efficient Off-Policy Reinforcement Learning
+Off-Policy Actor-Critic
+Model-Based Value Expansion for Efficient Model-Free Reinforcement Learning
+Sample-Efficient Reinforcement Learning with Stochastic Ensemble Value Expansion
+Learning to Search with MCTSnets
+Deep Residual Learning for Image Recognition
+Attention Is All You Need

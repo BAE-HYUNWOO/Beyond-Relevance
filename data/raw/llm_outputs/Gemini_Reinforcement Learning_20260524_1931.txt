@@ -1,0 +1,92 @@
+﻿Learning to Predict by the Methods of Temporal Differences
+Learning from Delayed Rewards
+Simple Statistical Gradient-Following Algorithms for Connectionist Reinforcement Learning
+Integrated Architectures for Learning, Planning, and Reacting Based on Approximating Dynamic Programming
+Between MDPs and semi-MDPs: A framework for temporal abstraction in reinforcement learning
+Policy Gradient Methods for Reinforcement Learning with Function Approximation
+Actor-Critic Algorithms
+Fitted Q-Iteration
+Playing Atari with Deep Reinforcement Learning
+Human-level control through deep reinforcement learning
+Deterministic Policy Gradient Algorithms
+Trust Region Policy Optimization
+Deep Reinforcement Learning with Double Q-learning
+Prioritized Experience Replay
+Asynchronous Methods for Deep Reinforcement Learning
+Dueling Network Architectures for Deep Reinforcement Learning
+Continuous control with deep reinforcement learning
+High-Dimensional Continuous Control Using Generalized Advantage Estimation
+Generative Adversarial Imitation Learning
+Unifying Count-Based Exploration and Intrinsic Motivation
+A Distributional Perspective on Reinforcement Learning
+Proximal Policy Optimization Algorithms
+Noisy Networks for Exploration
+Mastering the game of Go with deep neural networks and tree search
+Mastering the game of Go without human knowledge
+Rainbow: Combining Improvements in Deep Reinforcement Learning
+World Models
+IMPALA: Scalable Distributed Deep-RL with Importance Weighted Actor-Learner Architectures
+Addressing Function Approximation Error in Actor-Critic Methods
+Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning
+Exploration by Random Network Distillation
+The Option-Critic Architecture
+Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks
+Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments
+Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm
+Dota 2 with Large Scale Deep Reinforcement Learning
+Learning Latent Dynamics for Planning from Pixels
+Off-Policy Deep Reinforcement Learning without Exploration
+Recurrent Experience Replay in Distributed Reinforcement Learning
+Grandmaster level in StarCraft II using multi-agent reinforcement learning
+Dream to Control: Learning Behaviors by Latent Imagination
+Conservative Q-Learning for Offline Reinforcement Learning
+MuZero: Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model
+Decision Transformer: Reinforcement Learning via Sequence Modeling
+Mastering Atari with Discrete World Models
+Highly accurate protein structure prediction with AlphaFold
+A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning
+Maximum Entropy Inverse Reinforcement Learning
+Constrained Policy Optimization
+Curiosity-driven Exploration by Self-supervised Prediction
+FeUdal Networks for Hierarchical Reinforcement Learning
+Imagination-Augmented Agents for Deep Reinforcement Learning
+Go-Explore: a New Approach for Hard-Exploration Problems
+Distributed Prioritized Experience Replay
+Soft Actor-Critic Algorithms and Applications
+Implicit Q-Learning
+Mastering Diverse Domains through World Models
+Learning to trade via direct reinforcement
+Reinforcement Learning with Unsupervised Auxiliary Tasks
+Hindsight Experience Replay
+Variational Intrinsic Control
+Deep Exploration via Bootstrapped DQN
+Neural Fitted Q Iteration - First Experiences with a Data Efficient Neural Reinforcement Learning Method
+Policy invariance under reward transformations: Theory and application to reward shaping
+TD-Gammon
+An Analysis of Temporal-Difference Learning with Function Approximation
+On the Complexity of Solving Markov Decision Problems
+Analysis of Thompson Sampling for the Multi-armed Bandit Problem
+Doubly Robust Policy Evaluation and Learning
+Behavioral Cloning from Observation
+Learning Dexterous In-Hand Manipulation
+Emergent Complexity Through Multi-Agent Competition
+Temporal Difference Models: Model-Free Deep RL for Model-Based Control
+Stochastic Value Gradients
+Action-Conditional Video Prediction for Deep Planning in Robotic Grasping
+Learning Values Across Many Orders of Magnitude
+Generalization in Deep Reinforcement Learning
+The Bellman Rank of a Markov Decision Process
+Sample-Efficient Reinforcement Learning with Stochastic Ensemble Value Expansion
+Network Randomization: A Simple Technique for Generalization in Deep Reinforcement Learning
+Image Augmentation Is All You Need: Regularizing Deep Reinforcement Learning from Pixels
+Data-Efficient Hierarchical Reinforcement Learning
+Reward is Enough
+A Deeper Look at Experience Replay
+Deep Residual Reinforcement Learning
+Safe and Efficient Off-Policy Reinforcement Learning
+Model-Ensemble Trust-Region Policy Optimization
+Learning to Search with MCTSnets
+Hyper-parameters in reinforcement learning and how to tune them
+When to Trust Your Model: Model-Based Policy Optimization
+Online and Offline Reinforcement Learning by Planning with a Learned Model
+Offline Reinforcement Learning: Tutorial, Review, and Perspectives on Open Problems

@@ -1,0 +1,94 @@
+﻿On a Theory of the Coevolution of Language and Intelligence
+Learning to Predict by the Methods of Temporal Differences
+Technical Note: Q-Learning
+Asynchronous Methods for Deep Reinforcement Learning
+Human-level control through deep reinforcement learning
+Mastering the game of Go with deep neural networks and tree search
+Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm
+Playing Atari with Deep Reinforcement Learning
+Continuous control with deep reinforcement learning
+Trust Region Policy Optimization
+Proximal Policy Optimization Algorithms
+Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor
+Deterministic Policy Gradient Algorithms
+High-Dimensional Continuous Control Using Generalized Advantage Estimation
+Addressing Function Approximation Error in Actor-Critic Methods
+Rainbow: Combining Improvements in Deep Reinforcement Learning
+Dueling Network Architectures for Deep Reinforcement Learning
+Prioritized Experience Replay
+Deep Reinforcement Learning with Double Q-learning
+A Distributional Perspective on Reinforcement Learning
+Noisy Networks for Exploration
+The Reactor: A Fast and Sample-Efficient Actor-Critic Agent for Reinforcement Learning
+IMPALA: Scalable Distributed Deep-RL with Importance Weighted Actor-Learner Architectures
+Recurrent Experience Replay in Distributed Reinforcement Learning
+EfficientZero: A Sample-Efficient Reinforcement Learning Algorithm
+Model-Based Reinforcement Learning with Atari
+Dream to Control: Learning Behaviors by Latent Imagination
+Learning Latent Dynamics for Planning from Pixels
+World Models
+Reinforcement Learning with Unsupervised Auxiliary Tasks
+Hindsight Experience Replay
+Curiosity-driven Exploration by Self-Supervised Prediction
+Exploration by Random Network Distillation
+Count-Based Exploration with Neural Density Models
+Unsupervised Reinforcement Learning of Transferable Meta-Skills
+Meta-Learning with Latent Embedding Optimization
+Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks
+Learning to Reinforcement Learn
+Evolution Strategies as a Scalable Alternative to Reinforcement Learning
+Genetic Algorithms for Reinforcement Learning
+Maximum Entropy Inverse Reinforcement Learning
+Apprenticeship Learning via Inverse Reinforcement Learning
+Guided Cost Learning: Deep Inverse Optimal Control via Policy Optimization
+Generative Adversarial Imitation Learning
+End-to-End Training of Deep Visuomotor Policies
+Sim-to-Real Transfer of Robotic Control with Dynamics Randomization
+Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World
+Learning Dexterous In-Hand Manipulation
+QT-Opt: Scalable Deep Reinforcement Learning for Vision-Based Robotic Manipulation
+Solving Rubik's Cube with a Robot Hand
+Learning Agile Robotic Locomotion Skills by Imitating Animals
+Emergence of Locomotion Behaviours in Rich Environments
+Reinforcement Learning for Robotic Manipulation with Asynchronous Advantage Actor-Critic
+Benchmarking Deep Reinforcement Learning for Continuous Control
+The Arcade Learning Environment: An Evaluation Platform for General Agents
+A Survey of Deep Reinforcement Learning in Video Games
+Deep Reinforcement Learning that Matters
+Challenges of Real-World Reinforcement Learning
+Is Deep Reinforcement Learning Really Superhuman? A Case Study in Atari
+Reinforcement Learning: An Introduction
+Algorithms for Reinforcement Learning
+Between MDPs and Semi-MDPs: A Framework for Temporal Abstraction in Reinforcement Learning
+The Option-Critic Architecture
+FeUdal Networks for Hierarchical Reinforcement Learning
+Hierarchical Deep Reinforcement Learning: Integrating Temporal Abstraction and Intrinsic Motivation
+Data-Efficient Hierarchical Reinforcement Learning
+Successor Features for Transfer in Reinforcement Learning
+Universal Value Function Approximators
+Generalized Planning with Deep Reinforcement Learning
+Learning Invariant Representations for Reinforcement Learning without Reconstruction
+Causal Reasoning from Meta-reinforcement Learning
+Reinforcement Learning with Augmented Data
+CURL: Contrastive Unsupervised Representations for Reinforcement Learning
+Data Regularized Q-Learning
+DrQ: Data-based Regularization for Q-Learning
+Randomized Ensembled Double Q-Learning: Learning Fast Without a Model
+Bootstrap Your Own Latent: A New Approach to Self-Supervised Learning
+Self-Supervised Visual Reinforcement Learning with Object-Centric Representations
+Deep Reinforcement Learning in a Handful of Trials using Probabilistic Dynamics Models
+PETS: Probabilistic Ensembles with Trajectory Sampling
+Model-Ensemble Trust-Region Policy Optimization
+Learning to Fly: Real-Time Reinforcement Learning for Autonomous UAVs
+Safe Reinforcement Learning via Shielding
+Constrained Policy Optimization
+Lyapunov-based Safe Reinforcement Learning
+A Comprehensive Survey on Safe Reinforcement Learning
+Multi-Agent Reinforcement Learning: A Selective Overview of Theories and Algorithms
+Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments
+Value-Decomposition Networks For Cooperative Multi-Agent Reinforcement Learning
+QMIX: Monotonic Value Function Factorisation for Deep Multi-Agent Reinforcement Learning
+Mean Field Multi-Agent Reinforcement Learning
+Learning to Communicate with Deep Multi-Agent Reinforcement Learning
+Emergent Complexity via Multi-Agent Competition
+Cooperative Inverse Reinforcement Learning

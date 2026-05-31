@@ -1,0 +1,100 @@
+beyond-relevance/
+├─ .gitignore
+├─ data
+│ ├─ raw/
+│ │ ├─ ir_outputs/
+│ │ └─ llm_outputs/
+├─ deps
+│ ├─ _metadata.json
+│ └─ package.json
+├─ dist
+│ ├─ favicon.svg
+│ ├─ icons.svg
+│ ├─ index.html
+│ └─ assets/
+├─ node_modules
+├─ public
+│ ├─ favicon.svg
+│ └─ icons.svg
+├─ real_world_distribution_authors_tmp
+├─ src
+│ ├─ App.css
+│ ├─ App.jsx
+│ ├─ constants.js
+│ ├─ index.css
+│ ├─ main.jsx
+│ ├─ api/
+│ │ ├─ benchmark_match_api.py
+│ │ ├─ data_collection.py
+│ │ ├─ llms_enrichment_api.py
+│ │ └─ main.py
+│ ├─ assets/
+│ │ ├─ hero.png
+│ │ ├─ react.svg
+│ │ └─ vite.svg
+│ ├─ benchmark/
+│ │ ├─ chartUtils.js
+│ │ ├─ constants.js
+│ │ ├─ csvUtils.js
+│ │ ├─ downloadUtils.js
+│ │ └─ metrics.js
+│ ├─ components/
+│ │ ├─ CollectionPage.css
+│ │ ├─ CollectionPageLayout.jsx
+│ │ ├─ ConsolePanel.jsx
+│ │ ├─ CsvPreview.jsx
+│ │ ├─ DataFilesPanel.jsx
+│ │ ├─ DataTree.jsx
+│ │ └─ benchmark/
+│ │ ├─ BenchmarkCharts.jsx
+│ │ ├─ BenchmarkSummaryTable.jsx
+│ │ ├─ BenchmarkTooltips.jsx
+│ │ ├─ DetailedMetricsPanel.jsx
+│ │ ├─ SampleDownloadCard.jsx
+│ │ └─ UploadPanel.jsx
+│ ├─ config/
+│ │ └─ settings.py
+│ ├─ data
+│ │ ├─ dataset/
+│ │ │ └─ papers_dataset.csv
+│ │ ├─ processed/
+│ │ │ ├─ matched_titles/
+│ │ │ ├─ real_world_distribution/
+│ │ │ └─ systems_distribution/
+│ │ ├─ raw/
+│ │ │ ├─ ir_outputs/
+│ │ │ └─ llm_outputs/
+│ │ └─ sample_system_outputs/
+│ ├─ distribution/
+│ │ ├─ binning.py
+│ │ ├─ build_real_world_distribution.py
+│ │ ├─ build_system_distribution.py
+│ │ └─ normalization.py
+│ ├─ pages/
+│ │ ├─ BenchmarkPage.css
+│ │ ├─ BenchmarkPage.jsx
+│ │ ├─ HomePage.css
+│ │ ├─ HomePage.jsx
+│ │ ├─ IRSystemsPage.jsx
+│ │ ├─ LLMsPage.jsx
+│ │ ├─ RealWorldPage.jsx
+│ │ └─ SampleDataDownloadPage.jsx
+│ ├─ services/
+│ │ ├─ collect_ir_outputs.py
+│ │ ├─ collect_llm_outputs.py
+│ │ ├─ collect_openalex.py
+│ │ ├─ ir_match_outputs.py
+│ │ ├─ merge_distributions.py
+│ │ ├─ metadata_enrichment.py
+│ │ ├─ pipeline_runner.py
+│ │ └─ raw_merge_service.py
+│ └─ utils/
+│ ├─ csv.js
+│ └─ date.js
+├─ eslint.config.js
+├─ index.html
+├─ package-lock.json
+├─ package.json
+├─ README.md
+├─ structure.txt
+└─ vite.config.js
