@@ -8,12 +8,12 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, PlainTextResponse, StreamingResponse
 # from src.api.scierc_relation_api import router as scierc_relation_router
 from src.api.arxiv_abstract_api import router as arxiv_abstract_router
-from src.api.ecosystem_graph_api import router as ecosystem_graph_router
+# from src.api.ecosystem_graph_api import router as ecosystem_graph_router
 
 app = FastAPI(title="Beyond Relevance API")
 # app.include_router(scierc_relation_router)
 app.include_router(arxiv_abstract_router)
-app.include_router(ecosystem_graph_router)
+# app.include_router(ecosystem_graph_router)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
