@@ -21,10 +21,10 @@ function ResearchHeader() {
       </button>
 
       <nav className="rs-nav" aria-label="Temporary navigation">
-        <button type="button">미정1</button>
-        <button type="button">미정2</button>
-        <button type="button">미정3</button>
-        <button type="button">미정4</button>
+        <button type="button">I'm</button>
+        <button type="button">BAE,</button>
+        <button type="button">HYUN</button>
+        <button type="button">WOO</button>
       </nav>
     </header>
   );
