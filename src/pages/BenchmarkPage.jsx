@@ -48,7 +48,8 @@ const OPENALEX_BASE = "https://api.openalex.org/works";
 const SEMANTIC_SEARCH_BASE = "https://api.semanticscholar.org/graph/v1/paper/search";
 const CROSSREF_BASE = "https://api.crossref.org/works";
 const CURRENT_YEAR = new Date().getFullYear();
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE =
+  import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8001";
 
 const OUTPUT_COLUMNS = [
   "system",
@@ -1038,65 +1039,65 @@ export default function BenchmarkPage() {
 
             {inputMode === "titles" && (
               <>
-            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12, marginBottom: 16 }}>
-              <label style={{ display: "grid", gap: 7 }}>
-                <span style={{ fontSize: 12, fontWeight: 800, color: "#475569" }}>OPENALEX_API_KEY</span>
-                <input
-                  type="password"
-                  value={openAlexApiKey}
-                  onChange={(e) => setOpenAlexApiKey(e.target.value)}
-                  placeholder="Optional OpenAlex API key"
-                  style={{
-                    padding: "13px 14px",
-                    borderRadius: 14,
-                    border: "1px solid #dbe3f0",
-                    outline: "none",
-                    fontSize: 14,
-                  }}
-                />
-              </label>
+                <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12, marginBottom: 16 }}>
+                  <label style={{ display: "grid", gap: 7 }}>
+                    <span style={{ fontSize: 12, fontWeight: 800, color: "#475569" }}>OPENALEX_API_KEY</span>
+                    <input
+                      type="password"
+                      value={openAlexApiKey}
+                      onChange={(e) => setOpenAlexApiKey(e.target.value)}
+                      placeholder="Optional OpenAlex API key"
+                      style={{
+                        padding: "13px 14px",
+                        borderRadius: 14,
+                        border: "1px solid #dbe3f0",
+                        outline: "none",
+                        fontSize: 14,
+                      }}
+                    />
+                  </label>
 
-              <label style={{ display: "grid", gap: 7 }}>
-                <span style={{ fontSize: 12, fontWeight: 800, color: "#475569" }}>SEMANTIC_API_KEY</span>
-                <input
-                  type="password"
-                  value={semanticApiKey}
-                  onChange={(e) => setSemanticApiKey(e.target.value)}
-                  placeholder="Optional Semantic Scholar API key"
-                  style={{
-                    padding: "13px 14px",
-                    borderRadius: 14,
-                    border: "1px solid #dbe3f0",
-                    outline: "none",
-                    fontSize: 14,
-                  }}
-                />
-              </label>
-            </div>
+                  <label style={{ display: "grid", gap: 7 }}>
+                    <span style={{ fontSize: 12, fontWeight: 800, color: "#475569" }}>SEMANTIC_API_KEY</span>
+                    <input
+                      type="password"
+                      value={semanticApiKey}
+                      onChange={(e) => setSemanticApiKey(e.target.value)}
+                      placeholder="Optional Semantic Scholar API key"
+                      style={{
+                        padding: "13px 14px",
+                        borderRadius: 14,
+                        border: "1px solid #dbe3f0",
+                        outline: "none",
+                        fontSize: 14,
+                      }}
+                    />
+                  </label>
+                </div>
 
-            <textarea
-              value={titleInput}
-              onChange={(e) => setTitleInput(e.target.value)}
-              placeholder={`Input paper titles here...
+                <textarea
+                  value={titleInput}
+                  onChange={(e) => setTitleInput(e.target.value)}
+                  placeholder={`Input paper titles here...
 
 Attention Is All You Need
 BERT: Pre-training of Deep Bidirectional Transformers
 Deep Residual Learning for Image Recognition`}
-              style={{
-                width: "100%",
-                height: 290,
-                resize: "none",
-                borderRadius: 20,
-                border: "1px solid #dbe3f0",
-                padding: 20,
-                fontSize: 15,
-                lineHeight: 1.7,
-                background: "white",
-                outline: "none",
-                boxSizing: "border-box",
-                fontFamily: "Inter, Arial, sans-serif",
-              }}
-            />
+                  style={{
+                    width: "100%",
+                    height: 290,
+                    resize: "none",
+                    borderRadius: 20,
+                    border: "1px solid #dbe3f0",
+                    padding: 20,
+                    fontSize: 15,
+                    lineHeight: 1.7,
+                    background: "white",
+                    outline: "none",
+                    boxSizing: "border-box",
+                    fontFamily: "Inter, Arial, sans-serif",
+                  }}
+                />
 
               </>
             )}
@@ -1278,29 +1279,29 @@ Deep Residual Learning for Image Recognition`}
                           height: 350,
                         }}
                       >
-                      {normalizeChartRows(cdata, active).length > 0 ? (
-                        <ResponsiveContainer width="100%" height="100%">
-                          <BarChart data={normalizeChartRows(cdata, active)} margin={{ top: 8, right: 8, left: 0, bottom: 42 }}>
-                            <CartesianGrid strokeDasharray="3 3" />
-                            <XAxis
-                              dataKey="name"
-                              angle={active?.dimension === "year" ? -32 : -35}
-                              textAnchor="end"
-                              height={active?.dimension === "year" ? 82 : 100}
-                              interval={0}
-                              tickFormatter={active?.dimension === "year" ? yearTickFormatter : undefined}
-                              tick={{ fill: "#334155", fontSize: 11 }}
-                            />
-                            <YAxis />
-                            <Tooltip />
-                            <Bar dataKey="value" fill="#94a3b8" minPointSize={2} />
-                          </BarChart>
-                        </ResponsiveContainer>
-                      ) : (
-                        <div style={{ height: "100%", display: "flex", alignItems: "center", justifyContent: "center", color: "#94a3b8", border: "1px dashed #cbd5e1", borderRadius: 18 }}>
-                          No real-world chart data yet.
-                        </div>
-                      )}
+                        {normalizeChartRows(cdata, active).length > 0 ? (
+                          <ResponsiveContainer width="100%" height="100%">
+                            <BarChart data={normalizeChartRows(cdata, active)} margin={{ top: 8, right: 8, left: 0, bottom: 42 }}>
+                              <CartesianGrid strokeDasharray="3 3" />
+                              <XAxis
+                                dataKey="name"
+                                angle={active?.dimension === "year" ? -32 : -35}
+                                textAnchor="end"
+                                height={active?.dimension === "year" ? 82 : 100}
+                                interval={0}
+                                tickFormatter={active?.dimension === "year" ? yearTickFormatter : undefined}
+                                tick={{ fill: "#334155", fontSize: 11 }}
+                              />
+                              <YAxis />
+                              <Tooltip />
+                              <Bar dataKey="value" fill="#94a3b8" minPointSize={2} />
+                            </BarChart>
+                          </ResponsiveContainer>
+                        ) : (
+                          <div style={{ height: "100%", display: "flex", alignItems: "center", justifyContent: "center", color: "#94a3b8", border: "1px dashed #cbd5e1", borderRadius: 18 }}>
+                            No real-world chart data yet.
+                          </div>
+                        )}
                       </div>
                     </div>
                   </div>

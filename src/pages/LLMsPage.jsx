@@ -5,7 +5,8 @@ import DataFilesPanel from "../components/DataFilesPanel";
 
 import CollectionPageLayout from "../components/CollectionPageLayout";
 import "./LLMsPage.css";
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE =
+  import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8001";
 
 function getTodayDate() {
   return new Date().toISOString().slice(0, 10);
@@ -163,7 +164,7 @@ export default function LLMsPage() {
 
   useEffect(() => {
     if (!selectedFile && runGeneratedFiles.length > 0) {
-      openDataFile(runGeneratedFiles[0]).catch(() => {});
+      openDataFile(runGeneratedFiles[0]).catch(() => { });
     }
   }, [runGeneratedFiles, selectedFile]);
 

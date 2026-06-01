@@ -4,7 +4,8 @@ import ConsolePanel from "../components/ConsolePanel";
 import CsvPreview from "../components/CsvPreview";
 import "./IRSystemsPage.css";
 
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE =
+  import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8001";
 
 const IR_SYSTEM_OPTIONS = [
   { id: "google_scholar", label: "Google Scholar", shortLabel: "Google Scholar" },
@@ -419,7 +420,7 @@ export default function IRSystemsPage() {
   async function stopRunning() {
     try {
       abortRef.current?.abort();
-      await fetch(`${API_BASE}/api/ir/stop`, { method: "POST" }).catch(() => {});
+      await fetch(`${API_BASE}/api/ir/stop`, { method: "POST" }).catch(() => { });
     } finally {
       setIsRunning(false);
     }
