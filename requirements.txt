@@ -26,3 +26,9 @@ playwright
 scikit-learn
 
 aiofiles
+
+openai
+anthropic
+google-genai
+google-generativeai
+python-dotenv
