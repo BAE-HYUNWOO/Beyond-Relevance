@@ -1,7 +1,6 @@
 from pathlib import Path
 import os
 import subprocess
-
 import pandas as pd
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
@@ -17,6 +16,8 @@ app.include_router(arxiv_abstract_router)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
+        "http://localhost:3000",
+        "http://127.0.0.1:3000",
         "http://localhost:5173",
         "http://127.0.0.1:5173",
         "https://beyond-relevance.vercel.app",
@@ -253,12 +254,6 @@ def read_data_file(path: str):
         file_path.read_text(encoding="utf-8-sig", errors="replace")
     )
 
-
-from fastapi.responses import StreamingResponse
-import subprocess
-import os
-
-from fastapi import Request
 
 
 @app.post("/api/ir/run")
