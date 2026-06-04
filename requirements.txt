@@ -3,13 +3,20 @@ uvicorn[standard]
 
 pandas
 numpy
+scipy
+scikit-learn
 
 requests
+httpx
+aiohttp
 beautifulsoup4
 lxml
+html5lib
 
 python-multipart
 pydantic
+python-dotenv
+aiofiles
 
 torch
 transformers
@@ -22,14 +29,20 @@ networkx
 pyvis
 
 playwright
+selenium
+webdriver-manager
 
-scikit-learn
+openpyxl
+xlsxwriter
+pyarrow
 
-aiofiles
+rapidfuzz
+tqdm
+loguru
 
 openai
 anthropic
 google-genai
 google-generativeai
-python-dotenv
+
 pyperclip
